@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.github.wrightm</groupId>
+	<artifactId>vertx-eventbus-reply-error</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+
+
+	<properties>
+		<!-- build settings -->
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+
+		<!-- 3rd party dependencies -->
+		<vertx_version>3.3.3</vertx_version>
+		
+	</properties>
+
+
+	<dependencies>
+		<!-- 3rd party dependencies -->
+		<dependency>
+			<groupId>io.vertx</groupId>
+			<artifactId>vertx-core</artifactId>
+			<version>${vertx_version}</version>
+		</dependency>
+		<dependency>
+			<groupId>io.vertx</groupId>
+			<artifactId>vertx-web</artifactId>
+			<version>${vertx_version}</version>
+		</dependency>
+		<dependency>
+			<groupId>io.vertx</groupId>
+			<artifactId>vertx-service-factory</artifactId>
+			<version>${vertx_version}</version>
+		</dependency>
+		<dependency>
+			<groupId>io.vertx</groupId>
+			<artifactId>vertx-codegen</artifactId>
+			<version>${vertx_version}</version>
+		</dependency>
+
+
+	</dependencies>
+
+</project>
