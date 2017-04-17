@@ -20,5 +20,5 @@ Server listening on port 40001
 Successfully deployed verticle: f9c18fb4-d404-4e78-9dea-b3a73a0e5be6
 Successfully deployed all verticles
 
-***We failed answered: Timed out after waiting 30000(ms) for a reply. address: 2***
+***We failed to answer: Timed out after waiting 30000(ms) for a reply. address: 2***
 

@@ -31,11 +31,11 @@ public class HelloWorker extends AbstractVerticle {
 					if ( result.succeeded() ) {
 						System.out.println( "We answered" );
 					} else {
-						System.out.println( "We failed answered: " + result.cause().getMessage() );
+						System.out.println( "We failed to answer: " + result.cause().getMessage() );
 					}
 				} );
 			} catch ( Exception e ) {
-				m.fail( HttpResponseStatus.INTERNAL_SERVER_ERROR.code(), "Failed to answer data." );
+				m.fail( HttpResponseStatus.INTERNAL_SERVER_ERROR.code(), "Failed to answer request." );
 			}
 		} );
 
