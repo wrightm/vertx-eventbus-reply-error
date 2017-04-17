@@ -15,7 +15,7 @@
 		<maven.compiler.target>1.8</maven.compiler.target>
 
 		<!-- 3rd party dependencies -->
-		<vertx_version>3.3.3</vertx_version>
+		<vertx_version>3.4.0</vertx_version>
 		
 	</properties>
 
